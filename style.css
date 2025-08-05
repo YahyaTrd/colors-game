@@ -1,0 +1,49 @@
+body {
+  background-color: #5ec14e;
+  color: white;
+}
+#header {
+  color: white;
+  max-height: 200px;
+  background-color: #117243;
+  transition: background 1s;
+  text-transform: uppercase;
+}
+.btn-group button {
+  border-radius: 0;
+}
+
+nav {
+  background-color: #f1f2f2;
+  border-bottom: #231f20 solid 3px;
+}
+
+nav .btn {
+  border-radius: 0;
+}
+
+.container {
+  max-width: 700px;
+}
+.square {
+  margin: 1.5%;
+  width: 29%;
+  display: inline-block;
+  padding-top: 30%;
+  cursor: pointer;
+  transition: background 1s;
+  border-radius: 30px;
+}
+.display-5 {
+  font-size: 51px;
+  font-weight: 100;
+}
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]
+{
+  display: none !important
+;
+}
+
+.pb-5 {
+  padding-bottom: 78px !important;
+}
