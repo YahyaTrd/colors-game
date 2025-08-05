@@ -36,4 +36,19 @@ function playGame() {
     generateColors(3);
     pickColor(3);
   }
+  container.classList.add("mt-5");
+  container.classList.remove("mt-3");
+  feedback.textContent = "";
+  displaySquares();
+  buttonReactions();
+  squaresClick();
+  if (correctColor === undefined) {
+    playGame();
+  }
+}
+
+function displaySquares() {
+  for (i = 0; i < squares.length; i++) {
+    squares[i].style.backgroundColor = randomColors[i];
+  }
 }
